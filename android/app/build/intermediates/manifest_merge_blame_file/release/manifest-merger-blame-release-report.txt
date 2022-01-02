@@ -1,0 +1,121 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.agam.nstrewardz"
+4    android:versionCode="2"
+5    android:versionName="1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/nilay_punchh/Dev/Royalty/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/nilay_punchh/Dev/Royalty/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/nilay_punchh/Dev/Royalty/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/nilay_punchh/Dev/Royalty/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/Users/nilay_punchh/Dev/Royalty/android/app/src/main/AndroidManifest.xml:5:5-64
+12-->/Users/nilay_punchh/Dev/Royalty/android/app/src/main/AndroidManifest.xml:5:22-62
+13    <uses-permission android:name="android.permission.READ_CONTACTS" />
+13-->/Users/nilay_punchh/Dev/Royalty/android/app/src/main/AndroidManifest.xml:6:5-72
+13-->/Users/nilay_punchh/Dev/Royalty/android/app/src/main/AndroidManifest.xml:6:22-69
+14    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+14-->/Users/nilay_punchh/Dev/Royalty/android/app/src/main/AndroidManifest.xml:7:5-73
+14-->/Users/nilay_punchh/Dev/Royalty/android/app/src/main/AndroidManifest.xml:7:22-70
+15
+16    <uses-feature
+16-->/Users/nilay_punchh/Dev/Royalty/android/app/src/main/AndroidManifest.xml:9:5-85
+17        android:name="android.hardware.camera"
+17-->/Users/nilay_punchh/Dev/Royalty/android/app/src/main/AndroidManifest.xml:9:19-57
+18        android:required="false" />
+18-->/Users/nilay_punchh/Dev/Royalty/android/app/src/main/AndroidManifest.xml:9:58-82
+19    <uses-feature
+19-->/Users/nilay_punchh/Dev/Royalty/android/app/src/main/AndroidManifest.xml:10:5-91
+20        android:name="android.hardware.camera.front"
+20-->/Users/nilay_punchh/Dev/Royalty/android/app/src/main/AndroidManifest.xml:10:19-63
+21        android:required="false" />
+21-->/Users/nilay_punchh/Dev/Royalty/android/app/src/main/AndroidManifest.xml:10:64-88
+22
+23    <queries>
+23-->[:react-native-image-crop-picker] /Users/nilay_punchh/Dev/Royalty/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-13:15
+24        <intent>
+24-->[:react-native-image-crop-picker] /Users/nilay_punchh/Dev/Royalty/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-12:18
+25            <action android:name="android.media.action.IMAGE_CAPTURE" />
+25-->[:react-native-image-crop-picker] /Users/nilay_punchh/Dev/Royalty/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-73
+25-->[:react-native-image-crop-picker] /Users/nilay_punchh/Dev/Royalty/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:21-70
+26        </intent>
+27    </queries>
+28
+29    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+29-->[:react-native-image-crop-picker] /Users/nilay_punchh/Dev/Royalty/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:5-81
+29-->[:react-native-image-crop-picker] /Users/nilay_punchh/Dev/Royalty/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:22-78
+30
+31    <application
+31-->/Users/nilay_punchh/Dev/Royalty/android/app/src/main/AndroidManifest.xml:11:5-30:19
+32        android:name="com.agam.nstrewardz.MainApplication"
+32-->/Users/nilay_punchh/Dev/Royalty/android/app/src/main/AndroidManifest.xml:12:7-38
+33        android:allowBackup="false"
+33-->/Users/nilay_punchh/Dev/Royalty/android/app/src/main/AndroidManifest.xml:16:7-34
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.1.0] /Users/nilay_punchh/.gradle/caches/transforms-3/2780a7d58323a095a84203f45c645c6e/transformed/core-1.1.0/AndroidManifest.xml:24:18-86
+35        android:icon="@mipmap/ic_launcher"
+35-->/Users/nilay_punchh/Dev/Royalty/android/app/src/main/AndroidManifest.xml:14:7-41
+36        android:label="@string/app_name"
+36-->/Users/nilay_punchh/Dev/Royalty/android/app/src/main/AndroidManifest.xml:13:7-39
+37        android:roundIcon="@mipmap/ic_launcher"
+37-->/Users/nilay_punchh/Dev/Royalty/android/app/src/main/AndroidManifest.xml:15:7-46
+38        android:theme="@style/AppTheme"
+38-->/Users/nilay_punchh/Dev/Royalty/android/app/src/main/AndroidManifest.xml:17:7-38
+39        android:usesCleartextTraffic="true" >
+39-->/Users/nilay_punchh/Dev/Royalty/android/app/src/main/AndroidManifest.xml:18:7-42
+40        <activity
+40-->/Users/nilay_punchh/Dev/Royalty/android/app/src/main/AndroidManifest.xml:19:7-29:18
+41            android:name="com.agam.nstrewardz.MainActivity"
+41-->/Users/nilay_punchh/Dev/Royalty/android/app/src/main/AndroidManifest.xml:20:9-37
+42            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+42-->/Users/nilay_punchh/Dev/Royalty/android/app/src/main/AndroidManifest.xml:22:9-86
+43            android:label="@string/app_name"
+43-->/Users/nilay_punchh/Dev/Royalty/android/app/src/main/AndroidManifest.xml:21:9-41
+44            android:launchMode="singleTask"
+44-->/Users/nilay_punchh/Dev/Royalty/android/app/src/main/AndroidManifest.xml:23:9-40
+45            android:windowSoftInputMode="adjustPan" >
+45-->/Users/nilay_punchh/Dev/Royalty/android/app/src/main/AndroidManifest.xml:24:9-48
+46            <intent-filter>
+46-->/Users/nilay_punchh/Dev/Royalty/android/app/src/main/AndroidManifest.xml:25:9-28:25
+47                <action android:name="android.intent.action.MAIN" />
+47-->/Users/nilay_punchh/Dev/Royalty/android/app/src/main/AndroidManifest.xml:26:13-65
+47-->/Users/nilay_punchh/Dev/Royalty/android/app/src/main/AndroidManifest.xml:26:21-62
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->/Users/nilay_punchh/Dev/Royalty/android/app/src/main/AndroidManifest.xml:27:13-73
+49-->/Users/nilay_punchh/Dev/Royalty/android/app/src/main/AndroidManifest.xml:27:23-70
+50            </intent-filter>
+51        </activity>
+52
+53        <provider
+53-->[:react-native-image-crop-picker] /Users/nilay_punchh/Dev/Royalty/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:9-26:20
+54            android:name="androidx.core.content.FileProvider"
+54-->[:react-native-image-crop-picker] /Users/nilay_punchh/Dev/Royalty/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-62
+55            android:authorities="com.agam.nstrewardz.provider"
+55-->[:react-native-image-crop-picker] /Users/nilay_punchh/Dev/Royalty/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-60
+56            android:exported="false"
+56-->[:react-native-image-crop-picker] /Users/nilay_punchh/Dev/Royalty/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-37
+57            android:grantUriPermissions="true" >
+57-->[:react-native-image-crop-picker] /Users/nilay_punchh/Dev/Royalty/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-47
+58            <meta-data
+58-->[:react-native-image-crop-picker] /Users/nilay_punchh/Dev/Royalty/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:58
+59                android:name="android.support.FILE_PROVIDER_PATHS"
+59-->[:react-native-image-crop-picker] /Users/nilay_punchh/Dev/Royalty/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-67
+60                android:resource="@xml/provider_paths" />
+60-->[:react-native-image-crop-picker] /Users/nilay_punchh/Dev/Royalty/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:17-55
+61        </provider>
+62
+63        <activity
+63-->[:react-native-image-crop-picker] /Users/nilay_punchh/Dev/Royalty/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:9-30:72
+64            android:name="com.yalantis.ucrop.UCropActivity"
+64-->[:react-native-image-crop-picker] /Users/nilay_punchh/Dev/Royalty/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-60
+65            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+65-->[:react-native-image-crop-picker] /Users/nilay_punchh/Dev/Royalty/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-69
+66    </application>
+67
+68</manifest>

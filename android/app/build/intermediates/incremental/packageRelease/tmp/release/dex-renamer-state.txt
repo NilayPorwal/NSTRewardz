@@ -1,0 +1,4 @@
+#Sat Dec 25 19:00:49 IST 2021
+base.0=/Users/nilay_punchh/Dev/Royalty/android/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
